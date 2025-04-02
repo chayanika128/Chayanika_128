@@ -1,0 +1,167 @@
+
+
+h1{
+    text-align: center;
+    text-shadow: 5cqb;
+    color:rgb(221, 184, 135);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(23, 50, 50);
+    color:rgb(114, 218, 109)
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style:italic ;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(4, 235, 4);
+    font-size: 1rem;
+    transition: color 0.3s;
+    text-decoration:underline;
+}
+.menu a:hover{
+    color: rgb(225, 29, 78);
+}
+.home{
+    position: relative;
+    width: 100%;
+    
+    justify-content: space-around;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-color: (36, 35, 35);
+    background-image: url(edit2back.png);
+    color: aliceblue;
+}
+.home-container{
+    margin-left: 40px;
+}
+.home-container h3{
+    font-size: 30px;
+    font-weight: 650;
+}
+.home-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 3px;
+}
+#Skill{
+background-color :rgb(107, 110, 110);
+background-image:url(bg3.png) ;
+list-style: none;
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+
+}
+#Skill ul li{
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #b7121a;
+    border-radius: 5px;
+    background-color: rgb(202, 198, 200);
+}
+#Skill ul li button{
+    background-color:rgb(206, 249, 208);
+    border-radius: 5%;
+}
+#Project{
+    background-color: rgb(103, 101, 106);
+    
+    background-image:url(bg3.png) ;
+    color:white;
+}
+
+img{
+    margin-right: 40px;
+    border-radius: 50%;
+    box-shadow: 10px;
+    border-color: rgb(184, 11, 11);
+    border-right-color: rgb(127, 244, 11);
+    border-width: 100ch;
+    border-image-outset: 60cqmax;
+
+}
+body{
+background-attachment: fixed;
+background-color:rgb(52, 49, 50)
+}
+#Education{
+    background-image:url(bg3.png) ;
+    color:white;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+    margin-bottom: 10px;
+}
+.fa-brands{
+    font-size:1cm;
+    color: aqua;
+    grid-area:auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    
+}
+
+ .fa-facebook{
+
+    color: aqua;
+   
+
+}
+
+.fa-linkedin{
+    color: rgb(36, 36, 220);
+   
+}
+
+.fa-globe{
+    
+    font-size:4ch;
+    color: rgb(111, 247, 114);
+}
+
+.fa-github{
+    
+    color: white;
+} 
+
+footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+i:hover{
+    color: rgb(255, 153, 0);
+}
+
+#Contact{
+    background-color:dimgray
+}
